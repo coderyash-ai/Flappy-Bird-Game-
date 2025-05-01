@@ -1,21 +1,102 @@
-# 💫 About Me:
-I am currently working on the LLM training along with the data science.<br>Eager to apply analytical skills and programming expertise to real-world problems and contribute to innovative projects.<br>Adept at using tools like Python, C, C++ to extract insights and drive data-driven decision-making.
+# 🐦 **Flappy Bird Clone** 🎮
 
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Himanshu Jangid) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=coderyash-ai&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=coderyash-ai&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=coderyash-ai&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+A simple and fun game where you control a bird, trying to avoid obstacles (pipes) and stay alive! 🦋 Fly through pipes and avoid the ground while enjoying smooth gameplay. Built with Pygame! 🎮
 
 ---
-[![](https://visitcount.itsvg.in/api?id=coderyash-ai&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🛠 **Requirements**
+
+To run the game, you need to install the following:
+
+- Python 3.x
+- Pygame library
+
+### Install Pygame:
+```bash
+pip install pygame
+```
+
+---
+
+## 📦 **Game Features**
+
+- **Bird Movement**: Press the spacebar or the UP arrow to make the bird "flap" and move upward. 🕊
+- **Gravity**: The bird falls due to gravity, and you need to keep flapping to avoid hitting the ground. 🌍
+- **Pipes**: Pipes randomly generate and move toward the bird. Avoid them to stay alive! 🚧
+- **Ground**: The ground continuously scrolls, and the bird must avoid touching it. 🏞
+- **Sound Effects**: Fun audio for bird flaps and collisions. 🔊
+
+---
+
+## 🕹️ **How to Play**
+
+1. Run the script, and the game window will open. 🎮
+2. Press **spacebar** or **UP arrow** to start the game after the introduction screen. 🚀
+3. Keep flapping the bird and avoid hitting pipes or the ground to keep the bird alive. 🦅
+4. If you hit the pipes or the ground, the game will end, and you will hear a **hit sound**. 💥
+
+---
+
+## 📁 **Files in the Project**
+
+- `flappy_bird.py` — The main game script.
+- `assets/` — Folder containing the sprites and audio assets for the game.
+  - `sprites/`: Contains images for the bird, pipes, background, and ground.
+  - `audio/`: Contains sound files for bird flapping and collision sounds.
+
+---
+
+## ⚙️ **How to Run the Game**
+
+1. Download the game code and assets.
+2. Place the game files in the same directory.
+3. Run the Python script `flappy_bird.py`.
+
+```bash
+python flappy_bird.py
+```
+
+---
+
+## 🎶 **Assets**
+
+- 🐦 Bird images: `bluebird-upflap.png`, `bluebird-midflap.png`, `bluebird-downflap.png`
+- 🌳 Background image: `background-day.png`
+- 🚧 Pipe image: `pipe-green.png`
+- 🎧 Audio: `wing.wav`, `hit.wav`
+
+---
+
+## 🚀 **How It Works**
+
+1. **Bird Class**: Controls the bird’s behavior, including gravity and flapping movement. 🕊
+2. **Pipe Class**: Generates pipes at random heights and moves them across the screen. 🚧
+3. **Ground Class**: Represents the scrolling ground and checks if it’s off-screen. 🏞
+4. **Collision Detection**: The bird collides with pipes or the ground, causing the game to end. 💥
+5. **Game Loop**: The game runs in a loop, updating the bird, pipes, and ground, checking for collisions, and handling user input. 🔁
+
+---
+
+## 💡 **Tips for Success**
+
+- **Timing is key**: Flap at the right time to avoid hitting the pipes. ⏰
+- **React fast**: The game speeds up as you progress, so stay alert! ⚡
+- **Keep practicing**: Each game is different, so you can always improve your skills. 🏅
+
+---
+
+## 📣 **Contribute**
+
+Want to improve the game? Feel free to fork the repository, submit pull requests, or suggest new features! 🙌
+
+---
+
+## 📬 **Contact**
+
+If you have any questions or suggestions, feel free to reach out via email or open an issue on GitHub. 📧
+
+---
+
+## 🎮 **Enjoy the Game!** 🎉
+
+Good luck and may your bird soar high! 🦅
